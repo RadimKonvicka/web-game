@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mines Game</title>
+    <link rel="stylesheet" href="./files/style.css">
+</head>
+<body>
+    <div id="visual-mode" >
+        <button>Light Mode</button>
+    </div>
+    <h1>Mines</h1>
+    <div class="game-container">
+        <div id="bombCount">
+            <button id="minusButton">-</button>
+            <span id="bombDisplay">5</span>
+            <button id="plusButton">+</button>
+        </div>
+        <button id="playButton">Start Game</button>
+        <button id="resetButton" style="display: none;">Reset</button>
+        <div id="gameBoard"></div>
+    </div>
+    
+    
+    <script src="./files/mines.js"></script>
+</body>
+</html>
